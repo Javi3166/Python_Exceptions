@@ -16,3 +16,13 @@ print("\nFirst is the TypeError which is encountered when doing something like a
 print("\nThere is the ModuleNotFoundError when attempting to import a module that does not exist.")
 # import somemodule
 
+print("\nA NameError occurs when referencing a variable that is not defined.")
+# a = 5
+# b = c
+
+print("\n A FileNotFoundError occurs when trying to find a file, but not able to.")
+# f = open('somefile.txt')
+
+print("\nA ValueError occurs when a function or operation receives an argument of the right type, but an inappropriate value.")
+# a = [1, 2, 3]
+# a.remove(4)
